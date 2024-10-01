@@ -1,0 +1,21 @@
+.navList {
+    display: flex;
+    gap: 20px
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+}
+
+.navLink:hover {
+    color: #D84343;
+}
+
+.navLinkIsActive {
+    color: #D84343;
+}
+
+.navListItem {
+    display: flex;
+}

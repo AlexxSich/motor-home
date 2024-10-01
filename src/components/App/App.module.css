@@ -1,0 +1,13 @@
+.logoName {
+    font-family: "Inter", sans-serif;
+
+}
+
+.container {
+    display: flex;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+}
