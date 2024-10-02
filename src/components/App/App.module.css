@@ -1,13 +1,22 @@
-.logoName {
-    font-family: "Inter", sans-serif;
-
-}
-
-.container {
-    display: flex;
-}
-
 .navContainer {
+    width: 1440px;
+    height: 72px;
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #f2f4f7;
+    background-color: #f7f7f7;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logoName {
+    padding-right: 450px;
+    padding-left: 64px;
 }

@@ -1,6 +1,8 @@
 .navList {
     display: flex;
-    gap: 20px
+    gap: 32px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navLink {
@@ -8,9 +10,9 @@
     color: black;
 }
 
-.navLink:hover {
-    color: #D84343;
-}
+/* .navLink:hover {
+    color: #d80000;
+} */
 
 .navLinkIsActive {
     color: #D84343;
@@ -18,4 +20,5 @@
 
 .navListItem {
     display: flex;
+    text-align: center;
 }
