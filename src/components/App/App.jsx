@@ -13,7 +13,7 @@ export default function App() {
           height="16"
           aria-label="TravelTrucks"
         >
-          <use href="/src/img/icons.svg#icon-Logo"></use>
+          <use href="/icons.svg#icon-Logo"></use>
         </svg>
         <div className={css.nav}>
           <Navigation />
