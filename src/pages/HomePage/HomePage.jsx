@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import css from "./HomePage.module.css";
 
 export default function HomePage() {
@@ -8,7 +9,9 @@ export default function HomePage() {
         <p className={css.homeText}>
           You can find everything you want in our catalog
         </p>
-        <button className={css.button}>View Now</button>
+        <Link to="/catalog" className={css.linkAsButton}>
+          View Now
+        </Link>
       </div>
     </div>
   );
