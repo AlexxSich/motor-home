@@ -40,7 +40,7 @@ export default function TruckCard({ truck }) {
               height="16"
               aria-label="icon star"
             >
-              <use href="/public/icons.svg#icon-star"></use>
+              <use href="/icons.svg#icon-heart"></use>
             </svg>
             {truck.rating} ({truck.reviews.length} Reviews)
           </li>
@@ -51,7 +51,7 @@ export default function TruckCard({ truck }) {
               height="16"
               aria-label="icon map"
             >
-              <use href="/public/icons.svg#icon-map"></use>
+              <use href="/icons.svg#icon-map"></use>
             </svg>
             {truck.location}
           </li>
@@ -65,7 +65,7 @@ export default function TruckCard({ truck }) {
               height="15"
               aria-label="icon diagram"
             >
-              <use href="/public/icons.svg#icon-diagram"></use>
+              <use href="/icons.svg#icon-diagram"></use>
             </svg>
             {truck.transmission}
           </li>
@@ -78,7 +78,7 @@ export default function TruckCard({ truck }) {
                 height="17.5"
                 aria-label="icon wind"
               >
-                <use href="/public/icons.svg#icon-wind"></use>
+                <use href="/icons.svg#icon-wind"></use>
               </svg>
               AC
             </li>
@@ -91,7 +91,7 @@ export default function TruckCard({ truck }) {
               height="20"
               aria-label="icon fuel pump"
             >
-              <use href="/public/icons.svg#icon-fuel-pump"></use>
+              <use href="/icons.svg#icon-fuel-pump"></use>
             </svg>
             {truck.engine}
           </li>
@@ -104,7 +104,7 @@ export default function TruckCard({ truck }) {
                 height="20"
                 aria-label="icon cup hot"
               >
-                <use href="/public/icons.svg#icon-cup-hot"></use>
+                <use href="/icons.svg#icon-cup-hot"></use>
               </svg>
               Kitchen
             </li>
@@ -118,7 +118,7 @@ export default function TruckCard({ truck }) {
                 height="15"
                 aria-label="icon tv"
               >
-                <use href="/public/icons.svg#icon-tv"></use>
+                <use href="/icons.svg#icon-tv"></use>
               </svg>
               TV
             </li>
@@ -132,7 +132,7 @@ export default function TruckCard({ truck }) {
                 height="20"
                 aria-label="icon radio"
               >
-                <use href="/public/icons.svg#icon-ui-radios"></use>
+                <use href="/icons.svg#icon-ui-radios"></use>
               </svg>
               Radio
             </li>
@@ -146,7 +146,7 @@ export default function TruckCard({ truck }) {
                 height="20"
                 aria-label="icon droplet"
               >
-                <use href="/public/icons.svg#icon-bi_droplet"></use>
+                <use href="/icons.svg#icon-bi_droplet"></use>
               </svg>
               Bathroom
             </li>
@@ -159,7 +159,7 @@ export default function TruckCard({ truck }) {
               height="15"
               aria-label="icon people"
             >
-              <use href="/public/icons.svg#icon-people"></use>
+              <use href="/icons.svg#icon-people"></use>
             </svg>
             2 adults
           </li>
