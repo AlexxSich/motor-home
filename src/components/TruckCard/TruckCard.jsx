@@ -27,7 +27,7 @@ export default function TruckCard({ truck }) {
                 height="20.57"
                 aria-label="heart button"
               >
-                <use href="../../../src/assets/icons.svg#icon-heart"></use>
+                <use href="/icons.svg#icon-heart"></use>
               </svg>
             </button>
           </li>
