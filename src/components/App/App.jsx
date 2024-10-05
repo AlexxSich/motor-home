@@ -1,9 +1,9 @@
-import { Route, Routes } from "react-router-dom";
-import css from "./App.module.css";
-import Navigation from "../Navigation/Navigation.jsx";
-import HomePage from "../../pages/HomePage/HomePage.jsx";
-import CatalogPage from "../../pages/CatalogPage/CatalogPage.jsx";
-import NotFoundPage from "../../pages/NotFoundPage/NotFoundPage.jsx";
+import { Route, Routes } from 'react-router-dom';
+import css from './App.module.css';
+import Navigation from '../Navigation/Navigation.jsx';
+import HomePage from '../../pages/HomePage/HomePage.jsx';
+import CatalogPage from '../../pages/CatalogPage/CatalogPage.jsx';
+import NotFoundPage from '../../pages/NotFoundPage/NotFoundPage.jsx';
 
 export default function App() {
   return (
