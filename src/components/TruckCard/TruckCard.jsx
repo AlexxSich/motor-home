@@ -40,7 +40,7 @@ export default function TruckCard({ truck }) {
               height="16"
               aria-label="icon star"
             >
-              <use href="/icons.svg#icon-heart"></use>
+              <use href="/icons.svg#icon-star"></use>
             </svg>
             {truck.rating} ({truck.reviews.length} Reviews)
           </li>
